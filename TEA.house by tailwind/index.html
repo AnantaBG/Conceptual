@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS with Tailwind</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/73ea2f6992.js" crossorigin="anonymous"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -17,7 +21,80 @@
         }
       </script>
 </head>
-<body>
+<body class="mx-auto my-auto ">
+    <header class="p-16 lg:px-28 ">
+    <!-- Introduction section -->
+    <section class="lg:flex pt=10 mb-20 sm:grid">
+    <!-- Description -->
+    <div class=" " >
+    <h1 class="text-5xl lg:text-7xl font-bold sm:text-6xl">It's good <br>tea time at The <br>Tea House</h1>
+    <p class="text-gray-500 lg:text-xl mt-8">Tea and Botanical Solutions Supplier Give Optimum <br> Satisfaction To Your Taste Buds.</p>
+    <button class="mt-6 bg-gradient-to-r from-pink-500 to-orange-500 text-white rounded-lg font-bold px-5 py-3">Explore more <i class="-rotate-45 text-xl fa-solid fa-arrow-right"></i></button>
+    </div>
+    <!-- image -->
+    <div class="relative">
+    <!-- image -->
+    <div>
+    <img src="images/banner.png" alt="">
+    </div>
+    <!-- Card -->
+    <div class="absolute flex items-center bg-white shadow-lg px-2 py-2 md:px-10 lg:py-4 rounded-lg lg:left-28 lg:bottom-8 sm:bottom-5 sm:left-12">
+      <div>
+        <i class="text-2xl text-amber-500 fa-solid fa-star"></i>
+      </div>
+      <!-- text -->
+      <div class="ml-2">
+      <h2 class="lg:text-2xl font-bold">5.00</h2>
+      <p class="text-gray-500">Trust Pilot Ratings</p>
+      </div>
+    </div>
+    <!-- Icon -->
+    </div>
+    </section>
+    </header>
+    <main>
+    <!-- Featured products section -->
+    <section class="p-16 lg:px-28">
+    <div class="text-center">
+    <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">Our Featured Products</h1>
+    <p class="lg:px-48">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+    </div>
+    <!--  grid card  -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 text-center gap-6">
+    <div class="rounded-lg shadow-md bg-gray-200 overflow-hidden ">
+    <img class="mx-auto pt-4" src="images/tea-2.png" alt="">
+    <div class="pt-4">
+      <h2 class="font-bold text-2xl">Black Tea</h2>
+      <p class="text-gray-600 mt-5">Lorem ipsum dolor sit,<br> amet consectetur adipisicing.</p>
+    </div>
+    </div>
+    <div class="rounded-lg shadow-md bg-gray-200 overflow-hidden">
+      <img class="mx-auto pt-4" src="images/tea-3.png" alt="">
+      <div class="pt-4">
+        <h2 class="font-bold text-2xl">Lemon Tea</h2>
+        <p class="text-gray-600 mt-5">Lorem ipsum dolor sit,<br> amet consectetur adipisicing.</p>
+      </div>
+      </div>
+      <div class="rounded-lg shadow-md bg-gray-200 overflow-hidden">
+        <img class="mx-auto pt-4" src="images/tea-4.png" alt="">
+        <div class="pt-4">
+          <h2 class="font-bold text-2xl">Green Tea</h2>
+          <p class="text-gray-600 mt-5">Lorem ipsum dolor sit,<br> amet consectetur adipisicing.</p>
+        </div>
+        </div>
+        <div class="rounded-lg shadow-md bg-gray-200 overflow-hidden">
+          <img class="mx-auto pt-4" src="images/tea-1.png" alt="">
+          <div class="pt-4">
+            <h2 class="font-bold text-2xl">Milk Tea</h2>
+            <p class="text-gray-600 mt-5">Lorem ipsum dolor sit,<br> amet consectetur adipisicing.</p>
+          </div>
+          </div>
+    </div>
+    </section>
     
+    </main>
+    <footer>
+    
+    </footer>
 </body>
 </html>
