@@ -1,0 +1,72 @@
+*{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+/* Starting of the Styles of the Skip The Diet, Just Eat Healthy With Food Network part  */
+/* header section styles */
+}
+#Skip{
+color: rgb(255, 149, 0);
+}
+
+.header-elements{
+    margin-left: 90px;
+}
+.header-title{
+font-size: 3.675rem;
+font-weight: 800;
+color: rgb(83, 83, 83);
+text-align: left;
+/* word-spacing: 5.1px; */
+line-height: 5.2rem;
+}
+.header-title-description{
+font-size: 1.6rem;
+color: rgb(74, 74, 74);
+opacity: 0.7;
+text-align: left;
+}
+.primary{
+background-color: rgb(255, 102, 0);
+color: white;
+font-size: 1.5rem;
+padding: 21px 45px;
+border-radius: 40px;
+font-weight: 500;
+border-color: transparent;
+margin-top: 35px;
+/* border-top-left-radius: 30px;
+border-top-right-radius: 30px;
+border-bottom-left-radius: 30px;
+border-bottom-right-radius: 30px; */
+}
+ #header1{
+display: flex;
+flex-direction: row;
+align-items: center;
+max-width: 1440px;
+/* max-height: 800px; */
+ } 
+ .header{
+    background-image: url(../eat-healthy/images/shapes/Group\ 84501.png);
+    background-repeat: no-repeat;
+    /* background-position:  bottom right ; */
+    /* background-position-y:  5.6cm; */
+    background-position: 20.85cm;
+    }
+     .header-image{
+     height: 1018px;
+     /* max-width: 100%; */
+     }
+/* Ending of the Styles of the Skip The Diet, Just Eat Healthy With Food Network part  */
+@media screen and (max-width: 576px){
+#header1{
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+}
+.header-image
+{}
+.header-elements{
+margin: 10px;
+}
+}
